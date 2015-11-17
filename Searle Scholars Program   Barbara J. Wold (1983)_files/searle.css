@@ -1,0 +1,279 @@
+
+a, a:visited {
+	text-decoration: none;
+	color: #d25f13;
+}
+
+a.b{
+	font-weight: bold;
+}
+
+
+img {
+	border: none;
+}
+
+body{
+	background-color: #ddd7c7;
+	margin: 0px;
+	padding: 0px;
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 12px;
+	color: #333;
+}
+
+div#main {
+	width: 775px;
+	text-align: center;
+	margin: 0px auto;
+	background-color: #fff;
+}
+
+table#main td {
+	text-align: left;
+}
+
+table#main td#col_left {
+	width: 130px; /* 130 + 33 R pad = 163 px*/
+	padding: 0px 33px 33px 0px;
+}
+
+table#main td#col_right {
+	width: 580px; /* 580 + 32 R pad = 612 px */
+	padding: 0px 32px 20px 0px;
+}
+
+table#main td#footer {
+	background-color: #ddd7c7;
+}
+
+
+div#sidebar
+{
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	width: 128px;
+	border-right: 2px solid #ddd7c7;
+	border-top: 2px solid #ddd7c7;
+	clear: both;
+}
+
+div#sidebar #upcoming {
+	background-color: #ac9379;
+	color: #fff;
+	font-weight: bold;
+	font-size: 10.75px;
+	padding: 5px 2px 5px 2px;
+	text-align: center;
+}
+
+div#sidebar #events{
+	padding: 10px 7px 0px 10px;
+	margin: 0px;
+	margin-bottom: -10px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+
+div#sidebar #events h3{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+div#sidebar #events p{
+	font-family: arial, helvetica, sans-serif;
+	padding: 0px;
+	margin: 2px 0px 0px 0px;
+}
+
+div#left_content{
+	padding: 25px 7px 0px 10px;
+	margin: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+
+.footer{
+	background-color: #ddd7c7;
+	padding: 10px 0px;
+	text-align: left;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #777;
+}
+.footer #copy{
+	font-size: 9px;
+}
+
+.footer input.text{
+	border: 1px solid #ac9e79;
+}
+.footer form{
+	display: inline;
+	margin-right: 50px;
+}
+
+hr.tan{
+	height: 2px;
+	border: none;
+	color: #ddd7c7;
+	background-color: #ddd7c7;
+	margin: 10px 0px 5px 0px;
+}
+
+div#bottom_nav{
+	font-size: 11px;
+	color: #ac9e79;
+	font-weight: bold;
+	line-height: 16px;
+}
+
+div#bottom_nav a{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+}
+
+div#bottom_nav a.here,  #bottom_nav a.here:visited {
+	border-bottom: 1px dashed #873703;
+	color: #873703;
+}
+
+div#bottom_nav a.section, #bottom_nav a.section:visited {
+	font-family: georgia, times, "times new roman", "serif";
+	font-size: 11px;
+	color: #ac9e79;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+.green_callout{
+	float: right;
+	padding: 0px 0px 10px 15px;
+	color: #819227;
+	font-size: 12px;
+	font-style: italic;
+	width: 310px;
+}
+
+.orange_callout{
+	padding: 10px 10px 10px 15px;
+	margin: 0px 15px 0px 0px;
+	color: #fff;
+	font-size: 12px;
+	width: 250px;
+	background-color: #d25f13;
+}
+
+.right{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+
+h1, h2, h3{
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 12px;
+	/*color: #333;*/
+	font-weight: bold;
+}
+
+h1.scholar{
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 18px;
+	color: #32327a;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h2.scholar{
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+h2.news,h2.purple{
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 14px;
+	color: #32327a;
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+h2.news{
+	margin-top: 0px;
+}
+
+h3.news{
+	margin: 0px;
+	margin-top: 20px;
+}
+
+h3.tight{
+	margin: 0px 5px 0px 0px;
+}
+
+h2.year{
+	font-family: georgia, times, "times new roman", serif;
+	font-size: 14px;
+	color: #32327a;
+	font-weight: normal;
+	margin: 0px;
+	float: left;
+	width: 75px;
+}
+
+#main_block h2{
+	color: #32327a;
+}
+
+div.info{
+	float:left;
+	width: 400px;
+	margin-bottom: 30px;
+}
+
+div#scholar{
+	line-height: 20px;
+}
+
+img#scholar{
+	float: right;
+	padding: 0px;
+	margin: 0px 0px 10px 10px;
+}
+
+img.scholar_thumb{
+	margin: 0px 3px 3px 0px;
+	float: left;
+	height: 32px;
+	width: 32px;
+}
+
+img.small {
+	float:left;
+	padding: 0px 20px 20px 0px;
+}
+
+div.year_label{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 12px;
+	width: 43px;
+	background-color: #d25f13;
+	height: 23px;
+	float: left;
+	text-align: center;
+	padding-top: 9px;
+	margin: 0px 3px 0px 3px;
+}
